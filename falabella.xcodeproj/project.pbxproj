@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595022707CFF20019BE14 /* AppDelegate.swift */; };
+		A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595042707CFF20019BE14 /* SceneDelegate.swift */; };
+		A47595072707CFF20019BE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595062707CFF20019BE14 /* ViewController.swift */; };
+		A475950A2707CFF20019BE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47595082707CFF20019BE14 /* Main.storyboard */; };
+		A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */; };
+		A475950F2707CFF50019BE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A475950E2707CFF50019BE14 /* Assets.xcassets */; };
+		A47595122707CFF50019BE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47595102707CFF50019BE14 /* LaunchScreen.storyboard */; };
+		A475951D2707CFF50019BE14 /* falabellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475951C2707CFF50019BE14 /* falabellaTests.swift */; };
+		A47595282707CFF50019BE14 /* falabellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595272707CFF50019BE14 /* falabellaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47595192707CFF50019BE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47594F72707CFF20019BE14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47594FE2707CFF20019BE14;
+			remoteInfo = falabella;
+		};
+		A47595242707CFF50019BE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47594F72707CFF20019BE14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47594FE2707CFF20019BE14;
+			remoteInfo = falabella;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47594FF2707CFF20019BE14 /* falabella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falabella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47595022707CFF20019BE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A47595042707CFF20019BE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A47595062707CFF20019BE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A47595092707CFF20019BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A475950C2707CFF20019BE14 /* falabella.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = falabella.xcdatamodel; sourceTree = "<group>"; };
+		A475950E2707CFF50019BE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A47595112707CFF50019BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A47595132707CFF50019BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47595182707CFF50019BE14 /* falabellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = falabellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A475951C2707CFF50019BE14 /* falabellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falabellaTests.swift; sourceTree = "<group>"; };
+		A475951E2707CFF50019BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47595232707CFF50019BE14 /* falabellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = falabellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47595272707CFF50019BE14 /* falabellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falabellaUITests.swift; sourceTree = "<group>"; };
+		A47595292707CFF50019BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47594FC2707CFF20019BE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47595152707CFF50019BE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47595202707CFF50019BE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47594F62707CFF20019BE14 = {
+			isa = PBXGroup;
+			children = (
+				A47595012707CFF20019BE14 /* falabella */,
+				A475951B2707CFF50019BE14 /* falabellaTests */,
+				A47595262707CFF50019BE14 /* falabellaUITests */,
+				A47595002707CFF20019BE14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47595002707CFF20019BE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47594FF2707CFF20019BE14 /* falabella.app */,
+				A47595182707CFF50019BE14 /* falabellaTests.xctest */,
+				A47595232707CFF50019BE14 /* falabellaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47595012707CFF20019BE14 /* falabella */ = {
+			isa = PBXGroup;
+			children = (
+				A47595022707CFF20019BE14 /* AppDelegate.swift */,
+				A47595042707CFF20019BE14 /* SceneDelegate.swift */,
+				A47595062707CFF20019BE14 /* ViewController.swift */,
+				A47595082707CFF20019BE14 /* Main.storyboard */,
+				A475950E2707CFF50019BE14 /* Assets.xcassets */,
+				A47595102707CFF50019BE14 /* LaunchScreen.storyboard */,
+				A47595132707CFF50019BE14 /* Info.plist */,
+				A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */,
+			);
+			path = falabella;
+			sourceTree = "<group>";
+		};
+		A475951B2707CFF50019BE14 /* falabellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A475951C2707CFF50019BE14 /* falabellaTests.swift */,
+				A475951E2707CFF50019BE14 /* Info.plist */,
+			);
+			path = falabellaTests;
+			sourceTree = "<group>";
+		};
+		A47595262707CFF50019BE14 /* falabellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A47595272707CFF50019BE14 /* falabellaUITests.swift */,
+				A47595292707CFF50019BE14 /* Info.plist */,
+			);
+			path = falabellaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47594FE2707CFF20019BE14 /* falabella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A475952C2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabella" */;
+			buildPhases = (
+				A47594FB2707CFF20019BE14 /* Sources */,
+				A47594FC2707CFF20019BE14 /* Frameworks */,
+				A47594FD2707CFF20019BE14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = falabella;
+			productName = falabella;
+			productReference = A47594FF2707CFF20019BE14 /* falabella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47595172707CFF50019BE14 /* falabellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A475952F2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaTests" */;
+			buildPhases = (
+				A47595142707CFF50019BE14 /* Sources */,
+				A47595152707CFF50019BE14 /* Frameworks */,
+				A47595162707CFF50019BE14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A475951A2707CFF50019BE14 /* PBXTargetDependency */,
+			);
+			name = falabellaTests;
+			productName = falabellaTests;
+			productReference = A47595182707CFF50019BE14 /* falabellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A47595222707CFF50019BE14 /* falabellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47595322707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaUITests" */;
+			buildPhases = (
+				A475951F2707CFF50019BE14 /* Sources */,
+				A47595202707CFF50019BE14 /* Frameworks */,
+				A47595212707CFF50019BE14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47595252707CFF50019BE14 /* PBXTargetDependency */,
+			);
+			name = falabellaUITests;
+			productName = falabellaUITests;
+			productReference = A47595232707CFF50019BE14 /* falabellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47594F72707CFF20019BE14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A47594FE2707CFF20019BE14 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A47595172707CFF50019BE14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A47594FE2707CFF20019BE14;
+					};
+					A47595222707CFF50019BE14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A47594FE2707CFF20019BE14;
+					};
+				};
+			};
+			buildConfigurationList = A47594FA2707CFF20019BE14 /* Build configuration list for PBXProject "falabella" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A47594F62707CFF20019BE14;
+			productRefGroup = A47595002707CFF20019BE14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47594FE2707CFF20019BE14 /* falabella */,
+				A47595172707CFF50019BE14 /* falabellaTests */,
+				A47595222707CFF50019BE14 /* falabellaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47594FD2707CFF20019BE14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47595122707CFF50019BE14 /* LaunchScreen.storyboard in Resources */,
+				A475950F2707CFF50019BE14 /* Assets.xcassets in Resources */,
+				A475950A2707CFF20019BE14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47595162707CFF50019BE14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47595212707CFF50019BE14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47594FB2707CFF20019BE14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47595072707CFF20019BE14 /* ViewController.swift in Sources */,
+				A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */,
+				A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */,
+				A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47595142707CFF50019BE14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A475951D2707CFF50019BE14 /* falabellaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A475951F2707CFF50019BE14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47595282707CFF50019BE14 /* falabellaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A475951A2707CFF50019BE14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47594FE2707CFF20019BE14 /* falabella */;
+			targetProxy = A47595192707CFF50019BE14 /* PBXContainerItemProxy */;
+		};
+		A47595252707CFF50019BE14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47594FE2707CFF20019BE14 /* falabella */;
+			targetProxy = A47595242707CFF50019BE14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47595082707CFF20019BE14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47595092707CFF20019BE14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A47595102707CFF50019BE14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47595112707CFF50019BE14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A475952A2707CFF50019BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A475952B2707CFF50019BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A475952D2707CFF50019BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A475952E2707CFF50019BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A47595302707CFF50019BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabellaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falabella.app/falabella";
+			};
+			name = Debug;
+		};
+		A47595312707CFF50019BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabellaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falabella.app/falabella";
+			};
+			name = Release;
+		};
+		A47595332707CFF50019BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = falabella;
+			};
+			name = Debug;
+		};
+		A47595342707CFF50019BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = falabella;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47594FA2707CFF20019BE14 /* Build configuration list for PBXProject "falabella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A475952A2707CFF50019BE14 /* Debug */,
+				A475952B2707CFF50019BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A475952C2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A475952D2707CFF50019BE14 /* Debug */,
+				A475952E2707CFF50019BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A475952F2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47595302707CFF50019BE14 /* Debug */,
+				A47595312707CFF50019BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47595322707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47595332707CFF50019BE14 /* Debug */,
+				A47595342707CFF50019BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A475950C2707CFF20019BE14 /* falabella.xcdatamodel */,
+			);
+			currentVersion = A475950C2707CFF20019BE14 /* falabella.xcdatamodel */;
+			path = falabella.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A47594F72707CFF20019BE14 /* Project object */;
+}
