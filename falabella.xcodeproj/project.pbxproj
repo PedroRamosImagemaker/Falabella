@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A745E8E6993CE3DAEDD3E02 /* Pods_falabellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BA30B6331E7FD03AA9AF00 /* Pods_falabellaTests.framework */; };
+		A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425807C2707DC910085E935 /* BuildConfiguration.swift */; };
 		A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595022707CFF20019BE14 /* AppDelegate.swift */; };
 		A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595042707CFF20019BE14 /* SceneDelegate.swift */; };
 		A47595072707CFF20019BE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595062707CFF20019BE14 /* ViewController.swift */; };
@@ -15,7 +17,7 @@
 		A475950F2707CFF50019BE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A475950E2707CFF50019BE14 /* Assets.xcassets */; };
 		A47595122707CFF50019BE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47595102707CFF50019BE14 /* LaunchScreen.storyboard */; };
 		A475951D2707CFF50019BE14 /* falabellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475951C2707CFF50019BE14 /* falabellaTests.swift */; };
-		A47595282707CFF50019BE14 /* falabellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595272707CFF50019BE14 /* falabellaUITests.swift */; };
+		F927C53BA44995E5B4A03777 /* Pods_falabella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158B64854A0286ADDE687022 /* Pods_falabella.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,15 @@
 			remoteGlobalIDString = A47594FE2707CFF20019BE14;
 			remoteInfo = falabella;
 		};
-		A47595242707CFF50019BE14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A47594F72707CFF20019BE14 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A47594FE2707CFF20019BE14;
-			remoteInfo = falabella;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EDC9030EF29111D9B18C7C4 /* Pods-falabellaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabellaTests.debug.xcconfig"; path = "Target Support Files/Pods-falabellaTests/Pods-falabellaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1354BA1556E26951218271A3 /* Pods-falabella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabella.release.xcconfig"; path = "Target Support Files/Pods-falabella/Pods-falabella.release.xcconfig"; sourceTree = "<group>"; };
+		158B64854A0286ADDE687022 /* Pods_falabella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_falabella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774BEE88FB5A910B9174DD0E /* Pods-falabellaTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabellaTests.qa.xcconfig"; path = "Target Support Files/Pods-falabellaTests/Pods-falabellaTests.qa.xcconfig"; sourceTree = "<group>"; };
+		79F303A47E6959FCD83B9B9B /* Pods-falabella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabella.debug.xcconfig"; path = "Target Support Files/Pods-falabella/Pods-falabella.debug.xcconfig"; sourceTree = "<group>"; };
+		A425807C2707DC910085E935 /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		A47594FF2707CFF20019BE14 /* falabella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falabella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47595022707CFF20019BE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47595042707CFF20019BE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,9 +49,9 @@
 		A47595182707CFF50019BE14 /* falabellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = falabellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A475951C2707CFF50019BE14 /* falabellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falabellaTests.swift; sourceTree = "<group>"; };
 		A475951E2707CFF50019BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47595232707CFF50019BE14 /* falabellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = falabellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47595272707CFF50019BE14 /* falabellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falabellaUITests.swift; sourceTree = "<group>"; };
-		A47595292707CFF50019BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBA8B5FEF2FAFAFDE38BB1C /* Pods-falabellaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabellaTests.release.xcconfig"; path = "Target Support Files/Pods-falabellaTests/Pods-falabellaTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8BA30B6331E7FD03AA9AF00 /* Pods_falabellaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_falabellaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC296628D52652CDE669850A /* Pods-falabella.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabella.qa.xcconfig"; path = "Target Support Files/Pods-falabella/Pods-falabella.qa.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F927C53BA44995E5B4A03777 /* Pods_falabella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,26 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A47595202707CFF50019BE14 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2A745E8E6993CE3DAEDD3E02 /* Pods_falabellaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42580782707DAAB0085E935 /* ConfigScheme */ = {
+			isa = PBXGroup;
+			children = (
+				A425807C2707DC910085E935 /* BuildConfiguration.swift */,
+			);
+			path = ConfigScheme;
+			sourceTree = "<group>";
+		};
 		A47594F62707CFF20019BE14 = {
 			isa = PBXGroup;
 			children = (
 				A47595012707CFF20019BE14 /* falabella */,
 				A475951B2707CFF50019BE14 /* falabellaTests */,
-				A47595262707CFF50019BE14 /* falabellaUITests */,
 				A47595002707CFF20019BE14 /* Products */,
+				D23B83541BBCAC18AA98AFA8 /* Pods */,
+				A5EC69A84FFD128905335E85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +98,6 @@
 			children = (
 				A47594FF2707CFF20019BE14 /* falabella.app */,
 				A47595182707CFF50019BE14 /* falabellaTests.xctest */,
-				A47595232707CFF50019BE14 /* falabellaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +105,7 @@
 		A47595012707CFF20019BE14 /* falabella */ = {
 			isa = PBXGroup;
 			children = (
+				A42580782707DAAB0085E935 /* ConfigScheme */,
 				A47595022707CFF20019BE14 /* AppDelegate.swift */,
 				A47595042707CFF20019BE14 /* SceneDelegate.swift */,
 				A47595062707CFF20019BE14 /* ViewController.swift */,
@@ -122,13 +127,26 @@
 			path = falabellaTests;
 			sourceTree = "<group>";
 		};
-		A47595262707CFF50019BE14 /* falabellaUITests */ = {
+		A5EC69A84FFD128905335E85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A47595272707CFF50019BE14 /* falabellaUITests.swift */,
-				A47595292707CFF50019BE14 /* Info.plist */,
+				158B64854A0286ADDE687022 /* Pods_falabella.framework */,
+				F8BA30B6331E7FD03AA9AF00 /* Pods_falabellaTests.framework */,
 			);
-			path = falabellaUITests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23B83541BBCAC18AA98AFA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F303A47E6959FCD83B9B9B /* Pods-falabella.debug.xcconfig */,
+				1354BA1556E26951218271A3 /* Pods-falabella.release.xcconfig */,
+				0EDC9030EF29111D9B18C7C4 /* Pods-falabellaTests.debug.xcconfig */,
+				AFBA8B5FEF2FAFAFDE38BB1C /* Pods-falabellaTests.release.xcconfig */,
+				FC296628D52652CDE669850A /* Pods-falabella.qa.xcconfig */,
+				774BEE88FB5A910B9174DD0E /* Pods-falabellaTests.qa.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A475952C2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabella" */;
 			buildPhases = (
+				E40C5A12A650AB83B8D0A8F4 /* [CP] Check Pods Manifest.lock */,
 				A47594FB2707CFF20019BE14 /* Sources */,
 				A47594FC2707CFF20019BE14 /* Frameworks */,
 				A47594FD2707CFF20019BE14 /* Resources */,
+				F3367BB237E9ECC7BCE8496A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A475952F2707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaTests" */;
 			buildPhases = (
+				EE13A9E0CBD51B962A0B0BDA /* [CP] Check Pods Manifest.lock */,
 				A47595142707CFF50019BE14 /* Sources */,
 				A47595152707CFF50019BE14 /* Frameworks */,
 				A47595162707CFF50019BE14 /* Resources */,
@@ -169,24 +190,6 @@
 			productReference = A47595182707CFF50019BE14 /* falabellaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A47595222707CFF50019BE14 /* falabellaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A47595322707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaUITests" */;
-			buildPhases = (
-				A475951F2707CFF50019BE14 /* Sources */,
-				A47595202707CFF50019BE14 /* Frameworks */,
-				A47595212707CFF50019BE14 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A47595252707CFF50019BE14 /* PBXTargetDependency */,
-			);
-			name = falabellaUITests;
-			productName = falabellaUITests;
-			productReference = A47595232707CFF50019BE14 /* falabellaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +203,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					A47595172707CFF50019BE14 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A47594FE2707CFF20019BE14;
-					};
-					A47595222707CFF50019BE14 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = A47594FE2707CFF20019BE14;
 					};
@@ -224,7 +223,6 @@
 			targets = (
 				A47594FE2707CFF20019BE14 /* falabella */,
 				A47595172707CFF50019BE14 /* falabellaTests */,
-				A47595222707CFF50019BE14 /* falabellaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,20 +245,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A47595212707CFF50019BE14 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E40C5A12A650AB83B8D0A8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-falabella-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		EE13A9E0CBD51B962A0B0BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-falabellaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3367BB237E9ECC7BCE8496A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-falabella/Pods-falabella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-falabella/Pods-falabella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-falabella/Pods-falabella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A47594FB2707CFF20019BE14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */,
 				A47595072707CFF20019BE14 /* ViewController.swift in Sources */,
 				A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */,
 				A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */,
@@ -276,14 +332,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A475951F2707CFF50019BE14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A47595282707CFF50019BE14 /* falabellaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,11 +339,6 @@
 			isa = PBXTargetDependency;
 			target = A47594FE2707CFF20019BE14 /* falabella */;
 			targetProxy = A47595192707CFF50019BE14 /* PBXContainerItemProxy */;
-		};
-		A47595252707CFF50019BE14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A47594FE2707CFF20019BE14 /* falabella */;
-			targetProxy = A47595242707CFF50019BE14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -319,6 +362,109 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A42580752707D22F0085E935 /* QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = QA;
+		};
+		A42580762707D22F0085E935 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC296628D52652CDE669850A /* Pods-falabella.qa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-QA";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = QA;
+		};
+		A42580772707D22F0085E935 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BEE88FB5A910B9174DD0E /* Pods-falabellaTests.qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = falabellaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falabella.app/falabella";
+			};
+			name = QA;
+		};
 		A475952A2707CFF50019BE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,27 +583,31 @@
 		};
 		A475952D2707CFF50019BE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F303A47E6959FCD83B9B9B /* Pods-falabella.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = falabella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A475952E2707CFF50019BE14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1354BA1556E26951218271A3 /* Pods-falabella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = falabella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,12 +617,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A47595302707CFF50019BE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDC9030EF29111D9B18C7C4 /* Pods-falabellaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +645,7 @@
 		};
 		A47595312707CFF50019BE14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBA8B5FEF2FAFAFDE38BB1C /* Pods-falabellaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,44 +665,6 @@
 			};
 			name = Release;
 		};
-		A47595332707CFF50019BE14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = falabellaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = falabella;
-			};
-			name = Debug;
-		};
-		A47595342707CFF50019BE14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = falabellaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pdramoss.falabellaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = falabella;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +672,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A475952A2707CFF50019BE14 /* Debug */,
+				A42580752707D22F0085E935 /* QA */,
 				A475952B2707CFF50019BE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -567,6 +682,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A475952D2707CFF50019BE14 /* Debug */,
+				A42580762707D22F0085E935 /* QA */,
 				A475952E2707CFF50019BE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -576,16 +692,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47595302707CFF50019BE14 /* Debug */,
+				A42580772707D22F0085E935 /* QA */,
 				A47595312707CFF50019BE14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A47595322707CFF50019BE14 /* Build configuration list for PBXNativeTarget "falabellaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A47595332707CFF50019BE14 /* Debug */,
-				A47595342707CFF50019BE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
