@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @Inject private var getAllIndicatorUseCase: GetAllIndicatorUseCase
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        getAllIndicatorUseCase.execute { [weak self] (result) in
+            Logger.info(result)
+        }
     }
 
 

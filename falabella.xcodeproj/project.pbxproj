@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2A745E8E6993CE3DAEDD3E02 /* Pods_falabellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BA30B6331E7FD03AA9AF00 /* Pods_falabellaTests.framework */; };
+		A41EE7292707F63B00A1470C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE7282707F63B00A1470C /* Logger.swift */; };
+		A41EE72B2707F64900A1470C /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE72A2707F64900A1470C /* LoggerProtocol.swift */; };
+		A41EE72D2707F65800A1470C /* NetworkingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE72C2707F65800A1470C /* NetworkingLogger.swift */; };
+		A41EE73127094EC000A1470C /* ErrorNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE73027094EC000A1470C /* ErrorNetworking.swift */; };
+		A41EE73427094F2700A1470C /* DefaultNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE73327094F2700A1470C /* DefaultNetworkManager.swift */; };
+		A41EE7372709500600A1470C /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE7362709500600A1470C /* EndPointType.swift */; };
+		A41EE739270950A700A1470C /* NetworkingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE738270950A700A1470C /* NetworkingRouter.swift */; };
+		A41EE7412709568600A1470C /* NetworkingIndicatorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE7402709568600A1470C /* NetworkingIndicatorAPI.swift */; };
+		A41EE743270957A300A1470C /* NetworkingIndicatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE742270957A300A1470C /* NetworkingIndicatorProtocols.swift */; };
+		A41EE746270958C200A1470C /* IndicatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE745270958C200A1470C /* IndicatorDetail.swift */; };
+		A41EE74827095BE800A1470C /* NetworkingIndicatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74727095BE800A1470C /* NetworkingIndicatorService.swift */; };
+		A41EE74A27095D4900A1470C /* NetworkingIndicatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74927095D4900A1470C /* NetworkingIndicatorAdapter.swift */; };
+		A41EE74D27095DDF00A1470C /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74C27095DDF00A1470C /* Inject.swift */; };
+		A41EE74F27095FE700A1470C /* GetAllIndicatorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74E27095FE700A1470C /* GetAllIndicatorUseCase.swift */; };
+		A41EE751270964E200A1470C /* Indicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE750270964E200A1470C /* Indicators.swift */; };
 		A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425807C2707DC910085E935 /* BuildConfiguration.swift */; };
 		A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595022707CFF20019BE14 /* AppDelegate.swift */; };
 		A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595042707CFF20019BE14 /* SceneDelegate.swift */; };
 		A47595072707CFF20019BE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595062707CFF20019BE14 /* ViewController.swift */; };
-		A475950A2707CFF20019BE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47595082707CFF20019BE14 /* Main.storyboard */; };
 		A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */; };
 		A475950F2707CFF50019BE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A475950E2707CFF50019BE14 /* Assets.xcassets */; };
 		A47595122707CFF50019BE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47595102707CFF50019BE14 /* LaunchScreen.storyboard */; };
@@ -36,12 +50,26 @@
 		158B64854A0286ADDE687022 /* Pods_falabella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_falabella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BEE88FB5A910B9174DD0E /* Pods-falabellaTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabellaTests.qa.xcconfig"; path = "Target Support Files/Pods-falabellaTests/Pods-falabellaTests.qa.xcconfig"; sourceTree = "<group>"; };
 		79F303A47E6959FCD83B9B9B /* Pods-falabella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falabella.debug.xcconfig"; path = "Target Support Files/Pods-falabella/Pods-falabella.debug.xcconfig"; sourceTree = "<group>"; };
+		A41EE7282707F63B00A1470C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A41EE72A2707F64900A1470C /* LoggerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
+		A41EE72C2707F65800A1470C /* NetworkingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLogger.swift; sourceTree = "<group>"; };
+		A41EE73027094EC000A1470C /* ErrorNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNetworking.swift; sourceTree = "<group>"; };
+		A41EE73327094F2700A1470C /* DefaultNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkManager.swift; sourceTree = "<group>"; };
+		A41EE7362709500600A1470C /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		A41EE738270950A700A1470C /* NetworkingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingRouter.swift; sourceTree = "<group>"; };
+		A41EE7402709568600A1470C /* NetworkingIndicatorAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingIndicatorAPI.swift; sourceTree = "<group>"; };
+		A41EE742270957A300A1470C /* NetworkingIndicatorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingIndicatorProtocols.swift; sourceTree = "<group>"; };
+		A41EE745270958C200A1470C /* IndicatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorDetail.swift; sourceTree = "<group>"; };
+		A41EE74727095BE800A1470C /* NetworkingIndicatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingIndicatorService.swift; sourceTree = "<group>"; };
+		A41EE74927095D4900A1470C /* NetworkingIndicatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingIndicatorAdapter.swift; sourceTree = "<group>"; };
+		A41EE74C27095DDF00A1470C /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		A41EE74E27095FE700A1470C /* GetAllIndicatorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllIndicatorUseCase.swift; sourceTree = "<group>"; };
+		A41EE750270964E200A1470C /* Indicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicators.swift; sourceTree = "<group>"; };
 		A425807C2707DC910085E935 /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		A47594FF2707CFF20019BE14 /* falabella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falabella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47595022707CFF20019BE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47595042707CFF20019BE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A47595062707CFF20019BE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A47595092707CFF20019BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A475950C2707CFF20019BE14 /* falabella.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = falabella.xcdatamodel; sourceTree = "<group>"; };
 		A475950E2707CFF50019BE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47595112707CFF50019BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,12 +102,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A42580782707DAAB0085E935 /* ConfigScheme */ = {
+		A41EE7272707F62400A1470C /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE7282707F63B00A1470C /* Logger.swift */,
+				A41EE72A2707F64900A1470C /* LoggerProtocol.swift */,
+				A41EE72C2707F65800A1470C /* NetworkingLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		A41EE72E27094DD300A1470C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE7442709587C00A1470C /* Domain */,
+				A41EE72F27094EAE00A1470C /* Errors */,
+				A41EE74B27095DC400A1470C /* Inject */,
+				A41EE73227094F1C00A1470C /* Manager */,
+				A41EE73527094FF700A1470C /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A41EE72F27094EAE00A1470C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE73027094EC000A1470C /* ErrorNetworking.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		A41EE73227094F1C00A1470C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE73327094F2700A1470C /* DefaultNetworkManager.swift */,
+				A41EE73A270955DE00A1470C /* Resources */,
+				A41EE73B270955E500A1470C /* UseCases */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A41EE73527094FF700A1470C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE7362709500600A1470C /* EndPointType.swift */,
+				A41EE738270950A700A1470C /* NetworkingRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A41EE73A270955DE00A1470C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE73C2709563C00A1470C /* NetworkingIndicator */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A41EE73B270955E500A1470C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE74E27095FE700A1470C /* GetAllIndicatorUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		A41EE73C2709563C00A1470C /* NetworkingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE73D2709565300A1470C /* API */,
+				A41EE73E2709565C00A1470C /* Manager */,
+				A41EE73F2709566400A1470C /* Protocols */,
+			);
+			path = NetworkingIndicator;
+			sourceTree = "<group>";
+		};
+		A41EE73D2709565300A1470C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE7402709568600A1470C /* NetworkingIndicatorAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A41EE73E2709565C00A1470C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE74927095D4900A1470C /* NetworkingIndicatorAdapter.swift */,
+				A41EE74727095BE800A1470C /* NetworkingIndicatorService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A41EE73F2709566400A1470C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE742270957A300A1470C /* NetworkingIndicatorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A41EE7442709587C00A1470C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE745270958C200A1470C /* IndicatorDetail.swift */,
+				A41EE750270964E200A1470C /* Indicators.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A41EE74B27095DC400A1470C /* Inject */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE74C27095DDF00A1470C /* Inject.swift */,
+			);
+			path = Inject;
+			sourceTree = "<group>";
+		};
+		A41EE752270A6C4E00A1470C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A47595102707CFF50019BE14 /* LaunchScreen.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A42580782707DAAB0085E935 /* ManagerSchemes */ = {
 			isa = PBXGroup;
 			children = (
 				A425807C2707DC910085E935 /* BuildConfiguration.swift */,
 			);
-			path = ConfigScheme;
+			path = ManagerSchemes;
 			sourceTree = "<group>";
 		};
 		A47594F62707CFF20019BE14 = {
@@ -105,15 +258,16 @@
 		A47595012707CFF20019BE14 /* falabella */ = {
 			isa = PBXGroup;
 			children = (
-				A42580782707DAAB0085E935 /* ConfigScheme */,
+				A47595132707CFF50019BE14 /* Info.plist */,
 				A47595022707CFF20019BE14 /* AppDelegate.swift */,
 				A47595042707CFF20019BE14 /* SceneDelegate.swift */,
 				A47595062707CFF20019BE14 /* ViewController.swift */,
-				A47595082707CFF20019BE14 /* Main.storyboard */,
 				A475950E2707CFF50019BE14 /* Assets.xcassets */,
-				A47595102707CFF50019BE14 /* LaunchScreen.storyboard */,
-				A47595132707CFF50019BE14 /* Info.plist */,
 				A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */,
+				A41EE7272707F62400A1470C /* Logger */,
+				A42580782707DAAB0085E935 /* ManagerSchemes */,
+				A41EE72E27094DD300A1470C /* Networking */,
+				A41EE752270A6C4E00A1470C /* Screens */,
 			);
 			path = falabella;
 			sourceTree = "<group>";
@@ -234,7 +388,6 @@
 			files = (
 				A47595122707CFF50019BE14 /* LaunchScreen.storyboard in Resources */,
 				A475950F2707CFF50019BE14 /* Assets.xcassets in Resources */,
-				A475950A2707CFF20019BE14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,11 +469,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41EE72B2707F64900A1470C /* LoggerProtocol.swift in Sources */,
+				A41EE72D2707F65800A1470C /* NetworkingLogger.swift in Sources */,
+				A41EE74D27095DDF00A1470C /* Inject.swift in Sources */,
+				A41EE751270964E200A1470C /* Indicators.swift in Sources */,
+				A41EE74827095BE800A1470C /* NetworkingIndicatorService.swift in Sources */,
 				A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */,
+				A41EE73127094EC000A1470C /* ErrorNetworking.swift in Sources */,
+				A41EE7292707F63B00A1470C /* Logger.swift in Sources */,
+				A41EE7372709500600A1470C /* EndPointType.swift in Sources */,
+				A41EE74A27095D4900A1470C /* NetworkingIndicatorAdapter.swift in Sources */,
 				A47595072707CFF20019BE14 /* ViewController.swift in Sources */,
 				A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */,
 				A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */,
+				A41EE73427094F2700A1470C /* DefaultNetworkManager.swift in Sources */,
+				A41EE739270950A700A1470C /* NetworkingRouter.swift in Sources */,
+				A41EE7412709568600A1470C /* NetworkingIndicatorAPI.swift in Sources */,
 				A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */,
+				A41EE74F27095FE700A1470C /* GetAllIndicatorUseCase.swift in Sources */,
+				A41EE746270958C200A1470C /* IndicatorDetail.swift in Sources */,
+				A41EE743270957A300A1470C /* NetworkingIndicatorProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,14 +511,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A47595082707CFF20019BE14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A47595092707CFF20019BE14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A47595102707CFF50019BE14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
