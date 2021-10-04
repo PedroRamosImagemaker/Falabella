@@ -23,6 +23,18 @@
 		A41EE74D27095DDF00A1470C /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74C27095DDF00A1470C /* Inject.swift */; };
 		A41EE74F27095FE700A1470C /* GetAllIndicatorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE74E27095FE700A1470C /* GetAllIndicatorUseCase.swift */; };
 		A41EE751270964E200A1470C /* Indicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE750270964E200A1470C /* Indicators.swift */; };
+		A41EE75A270A6FDA00A1470C /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE759270A6FDA00A1470C /* LoginProtocols.swift */; };
+		A41EE75C270A71D200A1470C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE75B270A71D200A1470C /* LoginViewController.swift */; };
+		A41EE75E270A728700A1470C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE75D270A728700A1470C /* LoginRouter.swift */; };
+		A41EE760270A732500A1470C /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE75F270A732500A1470C /* LoginInteractor.swift */; };
+		A41EE762270A74D900A1470C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE761270A74D900A1470C /* LoginPresenter.swift */; };
+		A41EE769270B59C400A1470C /* MockNetworkingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE768270B59C400A1470C /* MockNetworkingRouter.swift */; };
+		A41EE76C270B5FF400A1470C /* GetAllIndicator.json in Resources */ = {isa = PBXBuildFile; fileRef = A41EE76B270B5FF400A1470C /* GetAllIndicator.json */; };
+		A41EE771270B619C00A1470C /* NetworkingIndicatorAdapterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE770270B619C00A1470C /* NetworkingIndicatorAdapterTest.swift */; };
+		A41EE773270B787600A1470C /* GetAllIndicatorUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE772270B787600A1470C /* GetAllIndicatorUseCaseTest.swift */; };
+		A41EE77B270BB19A00A1470C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE77A270BB19A00A1470C /* CoreDataManager.swift */; };
+		A41EE782270BB36D00A1470C /* UserListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE781270BB36D00A1470C /* UserListItem+CoreDataClass.swift */; };
+		A41EE783270BB36D00A1470C /* UserListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EE780270BB36D00A1470C /* UserListItem+CoreDataProperties.swift */; };
 		A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425807C2707DC910085E935 /* BuildConfiguration.swift */; };
 		A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595022707CFF20019BE14 /* AppDelegate.swift */; };
 		A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47595042707CFF20019BE14 /* SceneDelegate.swift */; };
@@ -65,6 +77,18 @@
 		A41EE74C27095DDF00A1470C /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
 		A41EE74E27095FE700A1470C /* GetAllIndicatorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllIndicatorUseCase.swift; sourceTree = "<group>"; };
 		A41EE750270964E200A1470C /* Indicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicators.swift; sourceTree = "<group>"; };
+		A41EE759270A6FDA00A1470C /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		A41EE75B270A71D200A1470C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A41EE75D270A728700A1470C /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		A41EE75F270A732500A1470C /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		A41EE761270A74D900A1470C /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		A41EE768270B59C400A1470C /* MockNetworkingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkingRouter.swift; sourceTree = "<group>"; };
+		A41EE76B270B5FF400A1470C /* GetAllIndicator.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetAllIndicator.json; sourceTree = "<group>"; };
+		A41EE770270B619C00A1470C /* NetworkingIndicatorAdapterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingIndicatorAdapterTest.swift; sourceTree = "<group>"; };
+		A41EE772270B787600A1470C /* GetAllIndicatorUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllIndicatorUseCaseTest.swift; sourceTree = "<group>"; };
+		A41EE77A270BB19A00A1470C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A41EE780270BB36D00A1470C /* UserListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserListItem+CoreDataProperties.swift"; path = "/Users/imagemaker/Xcode/falabella/falabella/CoreDataManager/UserListItem+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		A41EE781270BB36D00A1470C /* UserListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserListItem+CoreDataClass.swift"; path = "/Users/imagemaker/Xcode/falabella/falabella/CoreDataManager/UserListItem+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		A425807C2707DC910085E935 /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		A47594FF2707CFF20019BE14 /* falabella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falabella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47595022707CFF20019BE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -222,9 +246,116 @@
 		A41EE752270A6C4E00A1470C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A41EE753270A6F4500A1470C /* Login */,
 				A47595102707CFF50019BE14 /* LaunchScreen.storyboard */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		A41EE753270A6F4500A1470C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE754270A6F5000A1470C /* Interactor */,
+				A41EE755270A6F5F00A1470C /* Presenter */,
+				A41EE756270A6F6900A1470C /* Protocols */,
+				A41EE757270A6F7300A1470C /* Router */,
+				A41EE758270A6F8000A1470C /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A41EE754270A6F5000A1470C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE75F270A732500A1470C /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A41EE755270A6F5F00A1470C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE761270A74D900A1470C /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A41EE756270A6F6900A1470C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE759270A6FDA00A1470C /* LoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A41EE757270A6F7300A1470C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE75D270A728700A1470C /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A41EE758270A6F8000A1470C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE75B270A71D200A1470C /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A41EE764270A972500A1470C /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE77A270BB19A00A1470C /* CoreDataManager.swift */,
+				A41EE781270BB36D00A1470C /* UserListItem+CoreDataClass.swift */,
+				A41EE780270BB36D00A1470C /* UserListItem+CoreDataProperties.swift */,
+				A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		A41EE767270B598D00A1470C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE768270B59C400A1470C /* MockNetworkingRouter.swift */,
+				A41EE76A270B5FAA00A1470C /* Jsons */,
+				A41EE76D270B611900A1470C /* Manager */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A41EE76A270B5FAA00A1470C /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE76B270B5FF400A1470C /* GetAllIndicator.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		A41EE76D270B611900A1470C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE76E270B612500A1470C /* Resources */,
+				A41EE76F270B613500A1470C /* UseCases */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A41EE76E270B612500A1470C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE770270B619C00A1470C /* NetworkingIndicatorAdapterTest.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A41EE76F270B613500A1470C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				A41EE772270B787600A1470C /* GetAllIndicatorUseCaseTest.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		A42580782707DAAB0085E935 /* ManagerSchemes */ = {
@@ -263,7 +394,7 @@
 				A47595042707CFF20019BE14 /* SceneDelegate.swift */,
 				A47595062707CFF20019BE14 /* ViewController.swift */,
 				A475950E2707CFF50019BE14 /* Assets.xcassets */,
-				A475950B2707CFF20019BE14 /* falabella.xcdatamodeld */,
+				A41EE764270A972500A1470C /* CoreDataManager */,
 				A41EE7272707F62400A1470C /* Logger */,
 				A42580782707DAAB0085E935 /* ManagerSchemes */,
 				A41EE72E27094DD300A1470C /* Networking */,
@@ -275,6 +406,7 @@
 		A475951B2707CFF50019BE14 /* falabellaTests */ = {
 			isa = PBXGroup;
 			children = (
+				A41EE767270B598D00A1470C /* Networking */,
 				A475951C2707CFF50019BE14 /* falabellaTests.swift */,
 				A475951E2707CFF50019BE14 /* Info.plist */,
 			);
@@ -395,6 +527,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41EE76C270B5FF400A1470C /* GetAllIndicator.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,19 +606,27 @@
 				A41EE72D2707F65800A1470C /* NetworkingLogger.swift in Sources */,
 				A41EE74D27095DDF00A1470C /* Inject.swift in Sources */,
 				A41EE751270964E200A1470C /* Indicators.swift in Sources */,
+				A41EE762270A74D900A1470C /* LoginPresenter.swift in Sources */,
 				A41EE74827095BE800A1470C /* NetworkingIndicatorService.swift in Sources */,
 				A425807D2707DC910085E935 /* BuildConfiguration.swift in Sources */,
 				A41EE73127094EC000A1470C /* ErrorNetworking.swift in Sources */,
 				A41EE7292707F63B00A1470C /* Logger.swift in Sources */,
 				A41EE7372709500600A1470C /* EndPointType.swift in Sources */,
+				A41EE782270BB36D00A1470C /* UserListItem+CoreDataClass.swift in Sources */,
+				A41EE75E270A728700A1470C /* LoginRouter.swift in Sources */,
 				A41EE74A27095D4900A1470C /* NetworkingIndicatorAdapter.swift in Sources */,
+				A41EE783270BB36D00A1470C /* UserListItem+CoreDataProperties.swift in Sources */,
+				A41EE75C270A71D200A1470C /* LoginViewController.swift in Sources */,
 				A47595072707CFF20019BE14 /* ViewController.swift in Sources */,
 				A47595032707CFF20019BE14 /* AppDelegate.swift in Sources */,
 				A475950D2707CFF20019BE14 /* falabella.xcdatamodeld in Sources */,
 				A41EE73427094F2700A1470C /* DefaultNetworkManager.swift in Sources */,
 				A41EE739270950A700A1470C /* NetworkingRouter.swift in Sources */,
+				A41EE75A270A6FDA00A1470C /* LoginProtocols.swift in Sources */,
 				A41EE7412709568600A1470C /* NetworkingIndicatorAPI.swift in Sources */,
+				A41EE77B270BB19A00A1470C /* CoreDataManager.swift in Sources */,
 				A47595052707CFF20019BE14 /* SceneDelegate.swift in Sources */,
+				A41EE760270A732500A1470C /* LoginInteractor.swift in Sources */,
 				A41EE74F27095FE700A1470C /* GetAllIndicatorUseCase.swift in Sources */,
 				A41EE746270958C200A1470C /* IndicatorDetail.swift in Sources */,
 				A41EE743270957A300A1470C /* NetworkingIndicatorProtocols.swift in Sources */,
@@ -496,7 +637,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41EE773270B787600A1470C /* GetAllIndicatorUseCaseTest.swift in Sources */,
+				A41EE769270B59C400A1470C /* MockNetworkingRouter.swift in Sources */,
 				A475951D2707CFF50019BE14 /* falabellaTests.swift in Sources */,
+				A41EE771270B619C00A1470C /* NetworkingIndicatorAdapterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

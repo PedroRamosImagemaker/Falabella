@@ -13,9 +13,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        getAllIndicatorUseCase.execute { [weak self] (result) in
-            Logger.info(result)
-        }
     }
 
 

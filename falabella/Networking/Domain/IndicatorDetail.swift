@@ -10,6 +10,7 @@ import Foundation
 struct IndicatorDetail: Codable {
     var codigo: String
     var nombre: String
+    var unidadMedida: String
     var fecha: Date
     var valor: Float
 }

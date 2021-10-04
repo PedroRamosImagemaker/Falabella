@@ -23,6 +23,7 @@ class DefaultNetworkManager: DefaultNetworkManagerProtocol {
         guard let data = data else { throw ErrorNetworking.noData }
         do {
             let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
             decoder.dateDecodingStrategy = .formatted(getDateFormatter())
             return try decoder.decode(T.self, from: data)
         } catch {
